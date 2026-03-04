@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1537860961008580523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.72676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14501
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893622070201146343, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580499778635527553, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      propertyPath: m_Name
+      value: ServerProjectileBase (1) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6580499778635527553, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1045481536994809836}
+    - targetCorrespondingSourceObject: {fileID: 6580499778635527553, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6271440799559718837}
+  m_SourcePrefab: {fileID: 100100000, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+--- !u!1 &5621958853164794410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6580499778635527553, guid: e9e43ece862733841a2ed4096f4451b6, type: 3}
+  m_PrefabInstance: {fileID: 1537860961008580523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1045481536994809836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5621958853164794410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30520b1776a6ee45a3073a182635e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DealDamageOnContact
+  damage: 5
+--- !u!114 &-6271440799559718837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5621958853164794410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e7002fc8daaae48afd5cea323a144e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnOnDestroy
+  prefab: {fileID: 6432403980383820182, guid: 99a33210c18fd2d489bb63d1f07f2410, type: 3}

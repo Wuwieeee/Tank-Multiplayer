@@ -316,8 +316,8 @@ MonoBehaviour:
   bodyTransform: {fileID: 1091022835175826579}
   rb: {fileID: 509541486123120968}
   dustCloud: {fileID: 4773911800180207368}
-  movementSpeed: 12
-  turningRate: 250
+  movementSpeed: 18
+  turningRate: 200
   particleEmissionValue: 10
 --- !u!50 &509541486123120968
 Rigidbody2D:
@@ -382,10 +382,10 @@ MonoBehaviour:
   clientProjectilePrefab: {fileID: 6143394908250701683, guid: c78605af9e93aca4cb7a48b69cffa444, type: 3}
   muzzleFlash: {fileID: 1563968198071689032}
   playerCollider: {fileID: 1286708968445430405}
-  projectileSpeed: 30
-  fireRate: 5
+  projectileSpeed: 20
+  fireRate: 8
   muzzleFlashDuration: 0.1
-  costToFire: 3
+  costToFire: 1
 --- !u!114 &4392803340391698304
 MonoBehaviour:
   m_ObjectHideFlags: 0

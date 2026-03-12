@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TeamColorLookup
   m_EditorClassIdentifier: Assembly-CSharp::TeamColorLookup
   teamColors:
-  - {r: 1, g: 0, b: 0.37609386, a: 1}
-  - {r: 0.16239214, g: 0, b: 1, a: 1}
-  - {r: 1, g: 0.687739, b: 0, a: 1}
-  - {r: 0.20612037, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.25921154, a: 1}
+  - {r: 1, g: 0, b: 0.112485886, a: 1}
+  - {r: 0.94275093, g: 0, b: 1, a: 1}
+  - {r: 0.36658812, g: 0, b: 1, a: 1}

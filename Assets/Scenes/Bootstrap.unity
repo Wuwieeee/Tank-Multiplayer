@@ -203,7 +203,7 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: a94bf141bd2044c4399e321445c83112, type: 3}
-  m_Color: {r: 0.9811321, g: 0.5507298, b: 0.74548453, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.37609386, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.25921154, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1503,7 +1503,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1548,19 +1548,19 @@ MonoBehaviour:
   selectionButtons:
   - teamButton: {fileID: 376034427}
     selectionBox: {fileID: 801798621}
-    color: {r: 1, g: 0, b: 0.37609386, a: 1}
+    color: {r: 0, g: 1, b: 0.25921154, a: 1}
   - teamButton: {fileID: 1769557551}
     selectionBox: {fileID: 1039884783}
-    color: {r: 0.16239214, g: 0, b: 1, a: 1}
+    color: {r: 1, g: 0, b: 0.112485886, a: 1}
   - teamButton: {fileID: 920494004}
     selectionBox: {fileID: 2073126008}
-    color: {r: 1, g: 0.687739, b: 0, a: 1}
+    color: {r: 0.94275093, g: 0, b: 1, a: 1}
   - teamButton: {fileID: 1676080661}
     selectionBox: {fileID: 902290755}
-    color: {r: 0.20612037, g: 1, b: 0, a: 1}
+    color: {r: 0.36658812, g: 0, b: 1, a: 1}
   - teamButton: {fileID: 896474575}
     selectionBox: {fileID: 1046794614}
-    color: {r: 0, g: 0.14474994, b: 0.94370824, a: 1}
+    color: {r: 0, g: 0.10091367, b: 0.61551505, a: 1}
   teamIndex: 0
 --- !u!4 &775452775
 Transform:
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.14474994, b: 0.94370824, a: 1}
+  m_Color: {r: 0, g: 0.10091367, b: 0.61551505, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.687739, b: 0, a: 1}
+  m_Color: {r: 0.94275093, g: 0, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2372,7 +2372,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 1a838243856331f4681c559527ad5846, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2463,7 +2463,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 8769e4453ce5bc3429cfba7d58fbef13, type: 3}
-  m_Color: {r: 0.14017442, g: 0.8490566, b: 0.73552066, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2909,7 +2909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20612037, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.36658812, g: 0, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3042,7 +3042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16239214, g: 0, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.112485886, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3214,7 +3214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880800536}
   m_Layer: 0
-  m_Name: PLayer
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
